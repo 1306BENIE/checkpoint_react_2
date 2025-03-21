@@ -1,3 +1,8 @@
+import messiImage from './assets/messi.jpg';
+import cristianoImage from './assets/christiano.jpg';
+import mbappeImage from './assets/mbappe.jpg';
+import kevinImage from './assets/kevin.jpg';
+
 const players = [
   {
     name: "Lionel Messi",
@@ -5,7 +10,7 @@ const players = [
     nationality: "Argentin",
     jerseyNumber: 10,
     age: 36,
-    imageUrl: "https://via.placeholder.com/150"
+    imageUrl: messiImage
   },
   {
     name: "Cristiano Ronaldo",
@@ -13,7 +18,7 @@ const players = [
     nationality: "Portugais",
     jerseyNumber: 7,
     age: 39,
-    imageUrl: "https://via.placeholder.com/150"
+    imageUrl: cristianoImage
   },
   {
     name: "Kylian Mbappé",
@@ -21,7 +26,7 @@ const players = [
     nationality: "Français",
     jerseyNumber: 7,
     age: 25,
-    imageUrl: "https://via.placeholder.com/150"
+    imageUrl: mbappeImage
   },
   {
     name: "Kevin De Bruyne",
@@ -29,7 +34,7 @@ const players = [
     nationality: "Belge",
     jerseyNumber: 17,
     age: 32,
-    imageUrl: "https://via.placeholder.com/150"
+    imageUrl: kevinImage
   }
 ];
 
