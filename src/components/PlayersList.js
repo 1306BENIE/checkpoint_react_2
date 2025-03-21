@@ -9,10 +9,10 @@ const PlayersList = () => {
       <h2
   className="text-center my-4 text-uppercase fw-bold"
   style={{
-    color: "#558E", // Or couleur or
-    textShadow: "3px 3px 6px rgba(0, 0, 0, 0.3)", // Ombre portée
-    fontSize: "2.5rem", // Augmenter la taille
-    letterSpacing: "2px" // Espacement des lettres
+    color: "#558E",
+    textShadow: "3px 3px 6px rgba(0, 0, 0, 0.3)",
+    fontSize: "2.5rem", 
+    letterSpacing: "2px" 
   }}
 >
   Cartes des joueurs ⚽

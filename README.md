@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# ⚽ FIFA Player Cards 🎮  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+**FIFA Player Cards** est une application **React.js** stylisée avec **React Bootstrap**, permettant d'afficher des cartes interactives de joueurs FIFA avec leurs statistiques clés.  
+---
 
-In the project directory, you can run:
+## **Fonctionnalités**  
+✅ Affichage dynamique des joueurs sous forme de cartes  
+✅ Design réactif et moderne avec **React Bootstrap**  
+✅ Utilisation de **props** et **destructuration** pour une meilleure lisibilité du code  
+✅ Composants bien structurés dans un dossier `components` suivant les bonnes pratiques  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ **Technologies utilisées**  
+🔹 **React.js** - Librairie JavaScript pour la construction d'UI dynamiques  
+🔹 **React Bootstrap** - Framework CSS pour un design responsive  
+🔹 **JavaScript (ES6+)** - Programmation moderne et efficace  
+🔹 **CSS** - Personnalisation avancée des styles  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## **Installation et exécution**  
+### 1️⃣ **Cloner le projet**  
+```sh
+git clone https://github.com/1306BENIE/checkpoint_react_2.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd checkpoint_react_2
+```
 
-### `npm run build`
+2️⃣ Installer les dépendances
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3️⃣ Lancer le projet
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm run start
 
-### `npm run eject`
+L'application sera disponible sur http://localhost:3000 🌍
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Structure du projet
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📦 fifa-cards  
+ ┣ 📂 public  
+ ┃ ┣ 📜 index.html  
+ ┣ 📂 src  
+ ┃ ┣ 📂 assets (Images des joueurs)  
+ ┃ ┣ 📂 components  
+ ┃ ┃ ┣ 📜 PlayersList.js (Liste des joueurs)  
+ ┃ ┃ ┣ 📜 Player.js (Composant carte joueur)  
+ ┃ ┣ 📜 App.js (Composant principal)  
+ ┃ ┣ 📜 players.js (Données des joueurs)  
+ ┃ ┣ 📜 index.js (Point d'entrée React)  
+ ┣ 📜 package.json  
+ ┣ 📜 README.md  
+---
+# 📧 Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+💼 Développé par **BENIE SYLVESTRE**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📩 Email : sylvestrebenie7829@gmail.com
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
